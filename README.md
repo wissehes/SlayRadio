@@ -5,7 +5,7 @@
 
 | Home  | Recently Played | Requests |
 | ----  | --------------- | -------- |
-|![Homescreen](./Screenshots/Home.PNG) | ![Recently Played Screen](./Screenshots/RecentlyPlayed.PNG) | ![Request Songs screen](./Screenshots/Requests.png)|
+|![Homescreen](./Screenshots/Home.PNG) | ![Recently Played Screen](./Screenshots/RecentlyPlayed.PNG) | ![Request Songs screen](./Screenshots/Requests.PNG)|
 
 ## Features (as of right now)
 - [x] Play a radio station
