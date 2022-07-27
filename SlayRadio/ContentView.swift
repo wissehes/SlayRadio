@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var azura = NowPlayingManager()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            PlayerView()
+                .tabItem {
+                    Label("Player", systemImage: "radio")
+                }
+            
+            RecentlyPlayedView()
+                .tabItem {
+                    Label("Recently Played", systemImage: "music.note.list")
+                }
+            
+            RequestSongView()
+                .tabItem {
+                    Label("Request Songs", systemImage: "questionmark.circle")
+                }
+        }.environmentObject(azura)
     }
 }
 

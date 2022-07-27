@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89037BA02891C6AF009A2E25 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89037B9F2891C6AF009A2E25 /* README.md */; };
+		89037BA32891DB43009A2E25 /* RequestSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89037BA22891DB43009A2E25 /* RequestSongView.swift */; };
+		89037BA52891DC7E009A2E25 /* AzuraRequestsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89037BA42891DC7E009A2E25 /* AzuraRequestsResponse.swift */; };
+		899FE21B288ED60800DA91F1 /* AudioStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = 899FE21A288ED60800DA91F1 /* AudioStreaming */; };
+		899FE21E288ED91C00DA91F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 899FE21D288ED91C00DA91F1 /* Alamofire */; };
+		899FE220288ED93000DA91F1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE21F288ED93000DA91F1 /* Config.swift */; };
+		899FE223288EDA6800DA91F1 /* AzuraNowPlayingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE222288EDA6800DA91F1 /* AzuraNowPlayingResponse.swift */; };
+		899FE225288EE01700DA91F1 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE224288EE01700DA91F1 /* RadioPlayer.swift */; };
+		899FE228288EE4C000DA91F1 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE227288EE4C000DA91F1 /* PlayerView.swift */; };
+		899FE22A288EE57200DA91F1 /* RecentlyPlayedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE229288EE57200DA91F1 /* RecentlyPlayedView.swift */; };
+		899FE22C288EE5E300DA91F1 /* NowPlayingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899FE22B288EE5E300DA91F1 /* NowPlayingManager.swift */; };
+		899FE230288F255200DA91F1 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 899FE22F288F255200DA91F1 /* Starscream */; };
+		89ADB1182891EC3B00AB57BA /* Config.example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ADB1172891EC3B00AB57BA /* Config.example.swift */; };
+		89ADB11C2891EFB500AB57BA /* Home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 89ADB1192891EFB400AB57BA /* Home.PNG */; };
+		89ADB11D2891EFB500AB57BA /* RecentlyPlayed.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 89ADB11A2891EFB400AB57BA /* RecentlyPlayed.PNG */; };
+		89ADB11E2891EFB500AB57BA /* Requests.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 89ADB11B2891EFB500AB57BA /* Requests.PNG */; };
 		89C24340288D9F7500FAF270 /* SlayRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C2433F288D9F7500FAF270 /* SlayRadioApp.swift */; };
 		89C24342288D9F7500FAF270 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C24341288D9F7500FAF270 /* ContentView.swift */; };
 		89C24344288D9F7900FAF270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C24343288D9F7900FAF270 /* Assets.xcassets */; };
@@ -14,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89037B9F2891C6AF009A2E25 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89037BA22891DB43009A2E25 /* RequestSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSongView.swift; sourceTree = "<group>"; };
+		89037BA42891DC7E009A2E25 /* AzuraRequestsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzuraRequestsResponse.swift; sourceTree = "<group>"; };
+		899FE21F288ED93000DA91F1 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		899FE222288EDA6800DA91F1 /* AzuraNowPlayingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzuraNowPlayingResponse.swift; sourceTree = "<group>"; };
+		899FE224288EE01700DA91F1 /* RadioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		899FE227288EE4C000DA91F1 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		899FE229288EE57200DA91F1 /* RecentlyPlayedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedView.swift; sourceTree = "<group>"; };
+		899FE22B288EE5E300DA91F1 /* NowPlayingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingManager.swift; sourceTree = "<group>"; };
+		899FE22D288EE81F00DA91F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89ADB1172891EC3B00AB57BA /* Config.example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.example.swift; sourceTree = "<group>"; };
+		89ADB1192891EFB400AB57BA /* Home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.PNG; sourceTree = "<group>"; };
+		89ADB11A2891EFB400AB57BA /* RecentlyPlayed.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecentlyPlayed.PNG; sourceTree = "<group>"; };
+		89ADB11B2891EFB500AB57BA /* Requests.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Requests.PNG; sourceTree = "<group>"; };
 		89C2433C288D9F7500FAF270 /* SlayRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlayRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C2433F288D9F7500FAF270 /* SlayRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlayRadioApp.swift; sourceTree = "<group>"; };
 		89C24341288D9F7500FAF270 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,15 +56,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899FE21B288ED60800DA91F1 /* AudioStreaming in Frameworks */,
+				899FE21E288ED91C00DA91F1 /* Alamofire in Frameworks */,
+				899FE230288F255200DA91F1 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89037BA12891D34D009A2E25 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				89ADB1192891EFB400AB57BA /* Home.PNG */,
+				89ADB11A2891EFB400AB57BA /* RecentlyPlayed.PNG */,
+				89ADB11B2891EFB500AB57BA /* Requests.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		899FE221288ED99300DA91F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				899FE222288EDA6800DA91F1 /* AzuraNowPlayingResponse.swift */,
+				89037BA42891DC7E009A2E25 /* AzuraRequestsResponse.swift */,
+				899FE224288EE01700DA91F1 /* RadioPlayer.swift */,
+				899FE22B288EE5E300DA91F1 /* NowPlayingManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		899FE226288EE4AE00DA91F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				899FE227288EE4C000DA91F1 /* PlayerView.swift */,
+				899FE229288EE57200DA91F1 /* RecentlyPlayedView.swift */,
+				89037BA22891DB43009A2E25 /* RequestSongView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		89C24333288D9F7500FAF270 = {
 			isa = PBXGroup;
 			children = (
+				89037BA12891D34D009A2E25 /* Screenshots */,
+				89037B9F2891C6AF009A2E25 /* README.md */,
 				89C2433E288D9F7500FAF270 /* SlayRadio */,
 				89C2433D288D9F7500FAF270 /* Products */,
 			);
@@ -51,8 +117,13 @@
 		89C2433E288D9F7500FAF270 /* SlayRadio */ = {
 			isa = PBXGroup;
 			children = (
+				899FE22D288EE81F00DA91F1 /* Info.plist */,
+				899FE221288ED99300DA91F1 /* Models */,
+				899FE226288EE4AE00DA91F1 /* Views */,
 				89C2433F288D9F7500FAF270 /* SlayRadioApp.swift */,
 				89C24341288D9F7500FAF270 /* ContentView.swift */,
+				899FE21F288ED93000DA91F1 /* Config.swift */,
+				89ADB1172891EC3B00AB57BA /* Config.example.swift */,
 				89C24343288D9F7900FAF270 /* Assets.xcassets */,
 				89C24345288D9F7900FAF270 /* Preview Content */,
 			);
@@ -83,6 +154,11 @@
 			dependencies = (
 			);
 			name = SlayRadio;
+			packageProductDependencies = (
+				899FE21A288ED60800DA91F1 /* AudioStreaming */,
+				899FE21D288ED91C00DA91F1 /* Alamofire */,
+				899FE22F288F255200DA91F1 /* Starscream */,
+			);
 			productName = SlayRadio;
 			productReference = 89C2433C288D9F7500FAF270 /* SlayRadio.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,11 @@
 				Base,
 			);
 			mainGroup = 89C24333288D9F7500FAF270;
+			packageReferences = (
+				899FE219288ED60800DA91F1 /* XCRemoteSwiftPackageReference "AudioStreaming" */,
+				899FE21C288ED91C00DA91F1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				899FE22E288F255200DA91F1 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = 89C2433D288D9F7500FAF270 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +206,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89ADB11C2891EFB500AB57BA /* Home.PNG in Resources */,
+				89037BA02891C6AF009A2E25 /* README.md in Resources */,
 				89C24347288D9F7900FAF270 /* Preview Assets.xcassets in Resources */,
+				89ADB11E2891EFB500AB57BA /* Requests.PNG in Resources */,
+				89ADB11D2891EFB500AB57BA /* RecentlyPlayed.PNG in Resources */,
 				89C24344288D9F7900FAF270 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +222,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89037BA52891DC7E009A2E25 /* AzuraRequestsResponse.swift in Sources */,
+				899FE22A288EE57200DA91F1 /* RecentlyPlayedView.swift in Sources */,
 				89C24342288D9F7500FAF270 /* ContentView.swift in Sources */,
+				89ADB1182891EC3B00AB57BA /* Config.example.swift in Sources */,
 				89C24340288D9F7500FAF270 /* SlayRadioApp.swift in Sources */,
+				899FE223288EDA6800DA91F1 /* AzuraNowPlayingResponse.swift in Sources */,
+				89037BA32891DB43009A2E25 /* RequestSongView.swift in Sources */,
+				899FE228288EE4C000DA91F1 /* PlayerView.swift in Sources */,
+				899FE22C288EE5E300DA91F1 /* NowPlayingManager.swift in Sources */,
+				899FE220288ED93000DA91F1 /* Config.swift in Sources */,
+				899FE225288EE01700DA91F1 /* RadioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +364,7 @@
 				DEVELOPMENT_TEAM = C4HKS39B24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlayRadio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +394,7 @@
 				DEVELOPMENT_TEAM = C4HKS39B24;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlayRadio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +435,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		899FE219288ED60800DA91F1 /* XCRemoteSwiftPackageReference "AudioStreaming" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dimitris-c/AudioStreaming.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		899FE21C288ED91C00DA91F1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		899FE22E288F255200DA91F1 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		899FE21A288ED60800DA91F1 /* AudioStreaming */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899FE219288ED60800DA91F1 /* XCRemoteSwiftPackageReference "AudioStreaming" */;
+			productName = AudioStreaming;
+		};
+		899FE21D288ED91C00DA91F1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899FE21C288ED91C00DA91F1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		899FE22F288F255200DA91F1 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 899FE22E288F255200DA91F1 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89C24334288D9F7500FAF270 /* Project object */;
 }
