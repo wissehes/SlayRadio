@@ -14,12 +14,12 @@ import Foundation
 
 struct Config_Example {
     // This is the base URL of your AzuraCast instance
-    static let azuracast_URL = "https://radio.smarthome.wissehes.nl"
+    static let azuracast_URL = "https://your-azuracast" // Make sure to NOT include a trailing slash (/)
     // This is the station shortcode you want to use
     // Make sure this is the shortcode, and not the number.
-    static let station_shortcode = "slay"
+    static let station_shortcode = "radio"
     // Replace this URL with the url of your main stream
-    static let main_stream: URL = URL(string: "https://radio.smarthome.wissehes.nl/listen/slay/mobile.aac")!
+    static let main_stream: URL = URL(string: "https://your-azuracast/listen/radio/radio.mp3")!
     
     
     // No need to touch these :)
